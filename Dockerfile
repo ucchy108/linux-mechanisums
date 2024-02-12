@@ -2,7 +2,6 @@ FROM ubuntu:20.04
 
 ENV TZ Asia/Tokyo
 
-COPY . /src
 WORKDIR /src
 
 RUN apt-get update
